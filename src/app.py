@@ -1,4 +1,9 @@
 import os
+import sys
+
+# Ensure the src directory is in the Python path
+sys.path.append(os.path.dirname(__file__))
+
 import base64
 from io import BytesIO
 from flask import Flask, request, jsonify
