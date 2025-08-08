@@ -97,5 +97,4 @@ dmypy.json
 
 # TensorFlow / ML
 checkpoint
-*.h5
 *.ckpt
