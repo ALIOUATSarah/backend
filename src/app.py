@@ -26,7 +26,7 @@ os.environ.setdefault(
 # Create Flask app
 
 app = Flask(__name__)
-CORS(app, origins=["https://front-end-ten-sooty-52.vercel.app"])
+CORS(app, origins=["https://digit-ai-tau.vercel.app"])
 
 
 @app.route("/healthcheck", methods=["GET"])
